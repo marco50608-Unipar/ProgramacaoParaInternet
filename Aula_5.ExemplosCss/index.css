@@ -1,0 +1,31 @@
+h1{
+    color: goldenrod;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textoTitulo{
+    color: blue;
+    font-size: 80px;
+}
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 3px solid black;
+}
+
+.tituloTabela{
+    background-color: blueviolet;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+body{
+    background-color: red;
+}
+
