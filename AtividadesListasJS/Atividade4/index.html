@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>Atividade 4</title>
+</head>
+<body>
+
+    <h1>O que voce quer hoje?</h1>
+
+    <label>Me diga, quais os quatro sabores de pizza que voce deseja:</label>
+    <input id="PrimeiroSaborIndex" type="text">, <input id="SegundoSaborIndex" type="text">,
+    <input id="TerceiroSaborIndex" type="text"> e <input id="QuartoSaborIndex" type="text">
+    <br>
+    <br>
+    <label>Quantos refrigerantes você vai querer? </label><input id="RefrigeranteIndex" type="text">
+    <br>
+    <br>
+    <label>Vamos calcular os valores totais... Basta apertar aqui: </label>
+    <button onclick="CalcularValores()">Calcular</button>
+    <p>(Lembre dos seguintes valores: Cada sabor = R$ 12,00; 1 Refrigerante = R$ 7,00.)</p>
+    <hr>
+
+    <p>Sabores escolhidos: 
+    <span id="MostraSabor1"></span>
+    <span id="MostraSabor2"></span>
+    <span id="MostraSabor3"></span>
+    <span id="MostraSabor4"></span>
+    </p>
+
+<p>Total a pagar: R$ <span id="ValorTotalIndex">0</span></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
